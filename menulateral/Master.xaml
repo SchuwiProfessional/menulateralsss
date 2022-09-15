@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="menulateral.Master"
+             Title="Master"
+             Padding="15">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="Acerca de.."
+                BackgroundColor="OldLace"
+                x:Name="btnAcerca"
+                ImageSource="acerca.jpg"
+                HeightRequest="50"
+                WidthRequest="10"
+                Clicked="btnAcerca_Clicked">
+            </Button>
+            <Button
+                Text="Productos"
+                BackgroundColor="AliceBlue"
+                x:Name="btnproductos"
+                ImageSource="productos.jpg"
+                HeightRequest="50"
+                WidthRequest="10"
+                Clicked="btnproductos_Clicked">
+            </Button>
+            <Button
+                Text="Ventas"
+                BackgroundColor="#FADBD8"
+                x:Name="btnventas"
+                ImageSource="ventas.jpg"
+                HeightRequest="50"
+                WidthRequest="10"
+                Clicked="btnventas_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
